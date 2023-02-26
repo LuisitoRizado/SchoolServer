@@ -1,0 +1,33 @@
+.reinsMain{
+    
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.datosReinscripcion{
+    /*background-image: url('https://img.freepik.com/fotos-premium/carpetas-archivos-documentos-sobre-fondo-borroso_488220-40954.jpg?w=2000');*/
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.reinscripcionesDiv div:hover{
+    cursor: pointer;
+}
+.gruposDisponiblesDiv{
+
+    /*background-image: url('https://img.freepik.com/fotos-premium/fondo-borroso-desenfoque-grupo-personas-reunion-equipo-espacio-trabajo-conjunto_7190-20.jpg');*/
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.extraescolaresDiv{
+ /*   background-image: url('    https://img.freepik.com/fotos-premium/aula-escuela-fondo-borroso_488220-31772.jpg?w=2000    ');*/
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.seleccionMateriasDiv{
+    /*background-image: url('https://media.istockphoto.com/photos/book-and-green-blur-background-picture-id864912604');*/
+    background-size: cover;
+    background-repeat: no-repeat;
+}

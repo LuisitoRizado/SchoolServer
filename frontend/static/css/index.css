@@ -1,0 +1,36 @@
+body {
+    --nav-width: 110px;
+    margin: 0 0 0 var(--nav-width);
+    font-family: 'Quicksand', sans-serif;
+    min-height: 100vh;
+  
+    
+}
+
+.menu-dashboard {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-height: 100vh;
+    background: #E71D36;
+}
+
+#app {
+    margin: 2em;
+    width: 90%;
+    min-height: 80%;
+    
+    line-height: 1.5;
+    font-weight: 500;
+}
+@media (max-width: 600px) {
+    
+    #app {
+      margin: 0px 0px 0px 0px !important;
+      min-height: 80%;
+        width: 100%;
+      line-height: 1.5;
+      font-weight: 500;
+    }
+    
+  }
